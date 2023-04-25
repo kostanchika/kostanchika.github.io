@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<main>
+    <deck>
+        <card>/cards/hog_rider.png</card>
+        <card>/cards/icegolem.png</card>
+        <card>/cards/hog_rider.png</card>
+        <card>/cards/icegolem.png</card>
+        <card>/cards/hog_rider.png</card>
+        <card>/cards/icegolem.png</card>
+        <card>/cards/icegolem.png</card>
+        <card>/cards/fire_fireball.png</card>
+    </deck>
+</main>

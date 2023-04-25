@@ -1,0 +1,132 @@
+@import "general";
+
+main {
+    section {
+        .Popular-content {
+            width: 100%;
+            background: url(/imgs/popular.webp);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 5% 0;
+            .deck1, .deck2 {
+                flex: 1 1 400px;
+                padding: 0 5%;
+                display: flex;
+                justify-items: center;
+                justify-content: space-around;
+                align-items: center;
+                align-content: space-around;
+                flex-direction: column;
+                .row-container {
+                    width: 100%;
+                    height: 55%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    flex-direction: row;
+                    .row1, .row2 {
+                        width: 100%;
+                        height: 50%;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        justify-content: space-around;
+                        img {
+                            flex-shrink: 1;
+                            width: 25%;
+                        }
+                    }
+                }
+                .info {
+                    width: 100%;
+                    background: white;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 2% 0;
+                    p {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: max(3vh, 3vw);
+                        .elixir {
+                            color: $Elixir;
+                        }
+                        .WinRateGood {
+                            color: $WinRateGood; 
+                        }
+                    }
+                }
+            }
+        }
+        .best-content {
+            position: relative;
+            font-family: 'Montserrat', sans-serif;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            color: white;
+            .players, .clans {
+                position: relative;
+                flex: 1 1 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-content: space-around;
+                font-size: 2rem;
+                &.players {
+                    background: url(/imgs/players.jpg);
+                    background-attachment: fixed;
+                }
+                &.clans {
+                    background: url(/imgs/clans.jpg);
+                    background-attachment: fixed;
+                }
+                img {
+                    width: 100%;
+                    position: absolute;
+                    z-index: -1;
+                }
+                h3 {
+                    padding: 5% 0;
+                    
+                    text-align: center;
+                    font-family: 'Lato', sans-serif;
+                }
+                .player, .clan {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-content: center;
+                    align-items: center;
+                    width: 95%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    .place {
+                        width: 30px;
+                        height: 30px;
+                        display: flex;
+                        background: $ThemeColor;
+                        justify-content: center;
+                        align-items: center;
+                        color: black;
+                        font-size: 2rem;
+                    }
+                    .name {
+                        width: 60%;
+                        font-size: max(3vh, 3vw);
+                    }
+                    .trophies {
+                        font-size: max(3vh, 3vw);
+                            img {
+                            position: relative;
+                            height: 30px;
+                            width: 30px;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

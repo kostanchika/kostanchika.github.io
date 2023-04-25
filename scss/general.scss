@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@import "variables";
+
+@media (max-width: 800px) {
+    header {
+        .inside-header {
+            flex-wrap: wrap;
+            .logo {
+                margin-left: 5%;
+                position: relative;
+            }
+            label#fburger {
+                margin-right: 5%;
+                visibility: visible;
+                user-select: none;
+                right: 10%;
+                font-size: 4rem;
+                cursor: pointer;
+            }
+            #burger:checked ~ nav ul {
+                flex-direction: column;
+                flex-grow: 1;
+                li {
+                    border-bottom: 1px solid black;
+                    padding: 2%;
+                    a {
+                        display: inline;
+                    }
+                }
+            }
+            nav {
+                ul {
+                    li {
+                        text-align: center;
+                        background: $ThemeColor;    
+                    }
+                    li a {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background: $ThemeColor;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+        height: 65px;
+        width: auto;
+        margin-left: 5%;
+    }
+    .inside-header {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        flex-direction: row;
+        input[type=checkbox] {
+            visibility: hidden;
+        }
+        label[for=burger] {
+            visibility: hidden;
+        }
+        nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            ul {
+                width: 95%;
+                flex-direction: row;
+                justify-content: space-between;
+                list-style: none;
+                display: flex;
+                li {
+                    display: inline-block;
+                    font-family: 'Roboto Mono', monospace;
+                    a {
+                        user-select: none;
+                        text-decoration: none;
+                        color: black;
+                        font-size: 2rem;
+                        transition: color 0.4s;
+                        &:hover {
+                            color: grey;
+                        }
+                    }
+                }
+                li.active a {
+                    text-shadow: gold 1px 0 10px;
+                    color: #656565;
+                }
+            }
+        }
+    }
+}
+.Naming {
+    background: $ThemeColor;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-family: 'Merriweather', serif;
+        font-size: 2rem;
+    }
+}
+.footer {
+    position: relative;
+    width: 100%;
+    background: $ThemeColor;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 2rem;
+    a {
+        text-decoration: none;
+        color: black;
+        transition: color 0.4s;
+        &:hover {
+            color: gray;
+        }
+    }
+    .lastline {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .small {
+            margin-right: 0.5%;
+            font-size: 1rem;
+        }
+    }
+}

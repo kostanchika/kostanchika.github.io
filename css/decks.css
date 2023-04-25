@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@media (max-width: 800px) {
+  header .inside-header {
+    flex-wrap: wrap;
+  }
+  header .inside-header .logo {
+    margin-left: 5%;
+    position: relative;
+  }
+  header .inside-header label#fburger {
+    margin-right: 5%;
+    visibility: visible;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    right: 10%;
+    font-size: 4rem;
+    cursor: pointer;
+  }
+  header .inside-header #burger:checked ~ nav ul {
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  header .inside-header #burger:checked ~ nav ul li {
+    border-bottom: 1px solid black;
+    padding: 2%;
+  }
+  header .inside-header #burger:checked ~ nav ul li a {
+    display: inline;
+  }
+  header .inside-header nav ul li {
+    text-align: center;
+    background: #D9D9D9;
+  }
+  header .inside-header nav ul li a {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  background: #D9D9D9;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header img {
+  height: 65px;
+  width: auto;
+  margin-left: 5%;
+}
+header .inside-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  flex-direction: row;
+}
+header .inside-header input[type=checkbox] {
+  visibility: hidden;
+}
+header .inside-header label[for=burger] {
+  visibility: hidden;
+}
+header .inside-header nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+header .inside-header nav ul {
+  width: 95%;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  display: flex;
+}
+header .inside-header nav ul li {
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+}
+header .inside-header nav ul li a {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  transition: color 0.4s;
+}
+header .inside-header nav ul li a:hover {
+  color: grey;
+}
+header .inside-header nav ul li.active a {
+  text-shadow: gold 1px 0 10px;
+  color: #656565;
+}
+
+.Naming {
+  background: #D9D9D9;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Naming p {
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #D9D9D9;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.4s;
+}
+.footer a:hover {
+  color: gray;
+}
+.footer .lastline {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .lastline .small {
+  margin-right: 0.5%;
+  font-size: 1rem;
+}
+
+@media (max-width: 360px) {
+  .deck .info p {
+    font-size: 16px;
+  }
+}
+main .decks .deck {
+  background: url(../imgs/popular.webp);
+  background-attachment: fixed;
+  border: 2px solid black;
+  padding: 2% 0;
+}
+main .decks .deck h3 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+main .decks .deck .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+main .decks .deck .cards .row1, main .decks .deck .cards .row2 {
+  flex: 1 1 420px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+main .decks .deck .cards .row1 img, main .decks .deck .cards .row2 img {
+  width: 25%;
+}
+main .decks .deck .info {
+  margin: auto;
+  background: white;
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2% 0;
+}
+main .decks .deck .info p .elixir {
+  color: #FF1EED;
+}
+main .decks .deck .info p .WinRateGood {
+  color: #0EB400;
+}

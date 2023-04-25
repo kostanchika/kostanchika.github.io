@@ -1,0 +1,16 @@
+@import "general";
+
+main {
+    section {
+        .About {
+            background: url(../imgs/popular.webp);
+            padding: 2%;
+            p {
+                color: white;
+                font-size: 36px;
+                font-family: 'Montserrat', sans-serif;
+                text-indent: 12px;
+            }
+        }
+    }
+}

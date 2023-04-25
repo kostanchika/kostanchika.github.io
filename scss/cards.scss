@@ -1,0 +1,84 @@
+@import "general";
+
+@media (max-width: 400px) {
+    main {
+        section {
+            .HeadCard {
+                .info {
+                    font-size: 8px;
+                    .line img.mini{ 
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    section {
+        .HeadCard {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 5% 10%;
+            background: url(../imgs/popular.webp);
+            background-attachment: fixed;
+            flex-wrap: wrap;
+            img.maincard {
+                flex: 1 1 1px;
+                max-width: 400px;
+                margin-right: 5%;
+            }
+            .info {
+                flex-grow: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .line {
+                    width: 100%;
+                    background: $ThemeColor;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    padding: 1% 10%;
+                    border: 1px solid black;
+                    border-radius: 300px ;
+                    img {
+                        flex-grow: 0;
+                        width: 40px;
+                        transition: all 0.2s;
+                        &:hover {
+                            transform: scale(1.1);
+                            filter: grayscale(0.3);
+                        }
+                    }
+                    p {
+                        color: black;
+                        font-size: 2.7em;
+                            margin-right: 5%;
+                    }
+                    p.rarity {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background: url(../imgs/popular.webp);
+            background-attachment: fixed;
+            img.card {
+                width: 20%;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

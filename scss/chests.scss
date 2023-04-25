@@ -1,0 +1,48 @@
+@import "general";  
+
+main {
+    section {
+        .chests {
+            display: flex;
+            flex-direction: column;
+            .chest {
+                background: url(../imgs/popular.webp);
+                background-attachment: fixed;
+                border: 3px solid black;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                padding: 2%;
+                .chestImg {
+                    flex: 1 1 30%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex: 1 1 70%;
+                    .line1, .line2 {
+                        p {
+                            font-family: 'Montserrat', sans-serif;
+                            color: white;
+                            font-size: 1.7rem   
+                        }
+                    }
+                    .line1 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+}
