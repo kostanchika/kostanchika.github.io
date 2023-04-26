@@ -1,5 +1,15 @@
 @import "general";
 
+@media (max-width: 390px) {
+    .best-content {
+        .players, .clans {
+            .player, .clan {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
 main {
     section {
         .Popular-content {
@@ -72,7 +82,6 @@ main {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
-                align-content: space-around;
                 font-size: 2rem;
                 &.players {
                     background: url(/imgs/players.jpg);
@@ -89,35 +98,33 @@ main {
                 }
                 h3 {
                     padding: 5% 0;
-                    
                     text-align: center;
                     font-family: 'Lato', sans-serif;
                 }
                 .player, .clan {
+                    margin-left: 5%;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-around;
                     align-content: center;
                     align-items: center;
-                    width: 95%;
+                    width: 90%;
                     margin-top: 5%;
                     margin-bottom: 5%;
                     .place {
                         width: 30px;
                         height: 30px;
                         display: flex;
-                        background: $ThemeColor;
                         justify-content: center;
                         align-items: center;
-                        color: black;
+                        color: white;
                         font-size: 2rem;
+                        font-weight: 700;
                     }
                     .name {
                         width: 60%;
-                        font-size: max(3vh, 3vw);
                     }
                     .trophies {
-                        font-size: max(3vh, 3vw);
                             img {
                             position: relative;
                             height: 30px;

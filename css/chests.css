@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 @media (max-width: 800px) {
@@ -173,10 +173,14 @@ main section .chests .chest .info {
   justify-content: space-between;
   flex: 1 1 70%;
 }
-main section .chests .chest .info .line1 p, main section .chests .chest .info .line2 p {
+main section .chests .chest .info .line1 .cards, main section .chests .chest .info .line1 .gold, main section .chests .chest .info .line1 .features, main section .chests .chest .info .line2 .cards, main section .chests .chest .info .line2 .gold, main section .chests .chest .info .line2 .features {
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   color: white;
   font-size: 1.7rem;
+}
+main section .chests .chest .info .line1 .cards .cardsT, main section .chests .chest .info .line1 .cards .goldT, main section .chests .chest .info .line1 .cards .featuresT, main section .chests .chest .info .line1 .gold .cardsT, main section .chests .chest .info .line1 .gold .goldT, main section .chests .chest .info .line1 .gold .featuresT, main section .chests .chest .info .line1 .features .cardsT, main section .chests .chest .info .line1 .features .goldT, main section .chests .chest .info .line1 .features .featuresT, main section .chests .chest .info .line2 .cards .cardsT, main section .chests .chest .info .line2 .cards .goldT, main section .chests .chest .info .line2 .cards .featuresT, main section .chests .chest .info .line2 .gold .cardsT, main section .chests .chest .info .line2 .gold .goldT, main section .chests .chest .info .line2 .gold .featuresT, main section .chests .chest .info .line2 .features .cardsT, main section .chests .chest .info .line2 .features .goldT, main section .chests .chest .info .line2 .features .featuresT {
+  font-weight: 400;
 }
 main section .chests .chest .info .line1 {
   display: flex;

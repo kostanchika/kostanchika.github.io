@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 @media (max-width: 800px) {
@@ -110,8 +110,10 @@ header .inside-header nav ul li.active a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .Naming p {
+  text-align: center;
   font-family: "Merriweather", serif;
   font-size: 2rem;
 }
@@ -144,6 +146,11 @@ header .inside-header nav ul li.active a {
   font-size: 1rem;
 }
 
+@media (max-width: 390px) {
+  .best-content .players .player, .best-content .players .clan, .best-content .clans .player, .best-content .clans .clan {
+    font-size: 1.5rem;
+  }
+}
 main section .Popular-content {
   width: 100%;
   background: url(/imgs/popular.webp);
@@ -215,7 +222,6 @@ main section .best-content .players, main section .best-content .clans {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-content: space-around;
   font-size: 2rem;
 }
 main section .best-content .players.players, main section .best-content .clans.players {
@@ -237,12 +243,13 @@ main section .best-content .players h3, main section .best-content .clans h3 {
   font-family: "Lato", sans-serif;
 }
 main section .best-content .players .player, main section .best-content .players .clan, main section .best-content .clans .player, main section .best-content .clans .clan {
+  margin-left: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
   align-items: center;
-  width: 95%;
+  width: 90%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -250,18 +257,14 @@ main section .best-content .players .player .place, main section .best-content .
   width: 30px;
   height: 30px;
   display: flex;
-  background: #D9D9D9;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   font-size: 2rem;
+  font-weight: 700;
 }
 main section .best-content .players .player .name, main section .best-content .players .clan .name, main section .best-content .clans .player .name, main section .best-content .clans .clan .name {
   width: 60%;
-  font-size: max(3vh, 3vw);
-}
-main section .best-content .players .player .trophies, main section .best-content .players .clan .trophies, main section .best-content .clans .player .trophies, main section .best-content .clans .clan .trophies {
-  font-size: max(3vh, 3vw);
 }
 main section .best-content .players .player .trophies img, main section .best-content .players .clan .trophies img, main section .best-content .clans .player .trophies img, main section .best-content .clans .clan .trophies img {
   position: relative;

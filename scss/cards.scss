@@ -1,11 +1,10 @@
 @import "general";
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     main {
         section {
             .HeadCard {
                 .info {
-                    font-size: 8px;
                     .line img.mini{ 
                         width: 30px;
                     }
@@ -27,12 +26,12 @@ main {
             background-attachment: fixed;
             flex-wrap: wrap;
             img.maincard {
-                flex: 1 1 1px;
-                max-width: 400px;
-                margin-right: 5%;
+                flex: 0 1 300px;
+                max-height: 300px;
             }
             .info {
-                flex-grow: 0;
+                max-width: 500px;
+                flex: 1 0 350px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -42,7 +41,7 @@ main {
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    justify-content: flex-start;
+                    justify-content: center;
                     padding: 1% 10%;
                     border: 1px solid black;
                     border-radius: 300px ;
@@ -57,11 +56,12 @@ main {
                     }
                     p {
                         color: black;
-                        font-size: 2.7em;
-                            margin-right: 5%;
+                        font-size: 5vh;
+                        margin-right: 5%;
                     }
                     p.rarity {
                         margin: 0;
+                        text-align: center;
                     }
                 }
             }
@@ -70,7 +70,7 @@ main {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: flex-start;
             background: url(../imgs/popular.webp);
             background-attachment: fixed;
             img.card {
