@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<cards>
+    <card>
+        <name>Рыцарь</name>
+        <source>/cards/knight.png</source>
+        <hp>1607</hp>
+        <dmg>184</dmg>
+        <dmgps>153</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.2 с.</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>П.Е.К.К.А.</name>
+        <source>/cards/pekka.png</source>
+        <hp>3431</hp>
+        <dmg>744</dmg>
+        <dmgps>413</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Медленная</speed>
+        <hspeed>1.8 с.</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+</cards>
