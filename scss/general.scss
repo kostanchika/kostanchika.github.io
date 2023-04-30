@@ -71,10 +71,10 @@ header {
         align-items: center;
         height: 80px;
         flex-direction: row;
-        input[type=checkbox] {
+        input[type="checkbox"] {
             visibility: hidden;
         }
-        label[for=burger] {
+        label[for="burger"] {
             visibility: hidden;
         }
         nav {
@@ -116,10 +116,11 @@ header {
     justify-content: center;
     align-items: center ;
     text-align: center;
-    p {
+    h2 {
         text-align: center;
         font-family: 'Merriweather', serif;
         font-size: 2rem;
+        font-weight: 400;
     }
 }
 .footer {

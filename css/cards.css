@@ -39,7 +39,7 @@
   }
   header .inside-header nav ul li {
     text-align: center;
-    background: #D9D9D9;
+    background: #EDEDED;
   }
   header .inside-header nav ul li a {
     display: none;
@@ -54,7 +54,7 @@
 
 header {
   position: relative;
-  background: #D9D9D9;
+  background: #EDEDED;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -140,7 +140,7 @@ header .inside-header nav ul li.active a {
 }
 
 .Naming {
-  background: #D9D9D9;
+  background: #EDEDED;
   height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,16 +153,17 @@ header .inside-header nav ul li.active a {
           align-items: center;
   text-align: center;
 }
-.Naming p {
+.Naming h2 {
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 2rem;
+  font-weight: 400;
 }
 
 .footer {
   position: relative;
   width: 100%;
-  background: #D9D9D9;
+  background: #EDEDED;
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 2rem;
@@ -243,7 +244,7 @@ main section .HeadCard .info {
 main section .HeadCard .info .line {
   width: 89%;
   height: 50px;
-  background: #D9D9D9;
+  background: #EDEDED;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
