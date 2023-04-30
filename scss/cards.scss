@@ -1,17 +1,7 @@
 @import "general";
 
-@media (max-width: 425px) {
-    main {
-        section {
-            .HeadCard {
-                .info {
-                    .line img.mini{ 
-                        width: 30px;
-                    }
-                }
-            }
-        }
-    }
+* {
+    scroll-behavior: smooth;
 }
 
 main {
@@ -27,7 +17,7 @@ main {
             flex-wrap: wrap;
             img.maincard {
                 flex: 0 1 300px;
-                max-height: 300px;
+                max-width: 300px;
             }
             .info {
                 max-width: 500px;
@@ -36,19 +26,22 @@ main {
                 flex-direction: column;
                 align-items: center;
                 .line {
-                    width: 100%;
+                    width: 89%;
+                    height: 50px;
                     background: $ThemeColor;
                     display: flex;
                     flex-direction: row;
                     align-items: center;
                     justify-content: center;
-                    padding: 1% 10%;
+                    padding: 1% 4%;
                     border: 1px solid black;
-                    border-radius: 300px ;
-                    img {
+                    border-radius: 25px ;
+                    img.mini {
                         flex-grow: 0;
                         width: 40px;
+                        height: 40px;
                         transition: all 0.2s;
+                        border-radius: 50%;
                         &:hover {
                             transform: scale(1.1);
                             filter: grayscale(0.3);
@@ -56,12 +49,11 @@ main {
                     }
                     p {
                         color: black;
-                        font-size: 5vh;
+                        font-size: 24px;
                         margin-right: 5%;
-                    }
-                    p#rarity {
-                        margin: 0;
-                        text-align: center;
+                        &:last-child {
+                            margin: 0;
+                        }
                     }
                 }
             }
@@ -75,8 +67,10 @@ main {
             background-attachment: fixed;
             img.card {
                 width: 20%;
+                transition: all 0.1s;
                 &:hover {
                     cursor: pointer;
+                    transform: scale(1.1);
                 }
             }
         }

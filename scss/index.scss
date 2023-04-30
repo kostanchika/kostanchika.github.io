@@ -50,6 +50,7 @@ main {
                 }
                 .info {
                     width: 100%;
+                    border-radius: 15px;
                     background: white;
                     display: flex;
                     flex-direction: column;
@@ -58,7 +59,6 @@ main {
                     padding: 2% 0;
                     p {
                         font-family: 'Montserrat', sans-serif;
-                        font-size: max(3vh, 3vw);
                         .elixir {
                             color: $Elixir;
                         }
@@ -102,13 +102,13 @@ main {
                     font-family: 'Lato', sans-serif;
                 }
                 .player, .clan {
-                    margin-left: 5%;
+                    margin-left: 2%;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-around;
                     align-content: center;
                     align-items: center;
-                    width: 90%;
+                    width: 95%;
                     margin-top: 5%;
                     margin-bottom: 5%;
                     .place {
@@ -125,6 +125,8 @@ main {
                         width: 60%;
                     }
                     .trophies {
+                        display: flex;
+                        align-items: center;
                             img {
                             position: relative;
                             height: 30px;

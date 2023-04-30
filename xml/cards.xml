@@ -1,4 +1,19 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE cards
+[
+<!ELEMENT cards (#PCDATA|card|name|source|hp|dmg|dmgps|rarity|speed|hspeed|range|targets)*>
+<!ELEMENT card (#PCDATA|name|source|hp|dmg|dmgps|rarity|speed|hspeed|range|targets)*>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT hp (#PCDATA)>
+<!ELEMENT dmg (#PCDATA)>
+<!ELEMENT dmgps (#PCDATA)>
+<!ELEMENT rarity (#PCDATA)>
+<!ELEMENT speed (#PCDATA)>
+<!ELEMENT hspeed (#PCDATA)>
+<!ELEMENT range (#PCDATA)>
+<!ELEMENT targets (#PCDATA)>
+]>
 <cards>
     <card>
         <name>Рыцарь</name>
@@ -8,7 +23,7 @@
         <dmgps>153</dmgps>
         <rarity>Обычная</rarity>
         <speed>Средняя</speed>
-        <hspeed>1.2 с.</hspeed>
+        <hspeed>1.2</hspeed>
         <range>Малая</range>
         <targets>Земля</targets>
     </card>
@@ -20,7 +35,91 @@
         <dmgps>413</dmgps>
         <rarity>Эпическая</rarity>
         <speed>Медленная</speed>
-        <hspeed>1.8 с.</hspeed>
+        <hspeed>1.8</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Лучницы</name>
+        <source>/cards/archers.png</source>
+        <hp>277</hp>
+        <dmg>97</dmg>
+        <dmgps>107</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Обычная</speed>
+        <hspeed>0.9</hspeed>
+        <range>5.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Гоблины</name>
+        <source>/cards/goblins.png</source>
+        <hp>184</hp>
+        <dmg>109</dmg>
+        <dmgps>99</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>очень быстрая</speed>
+        <hspeed>1.1</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Гигант</name>
+        <source>/cards/giant.png</source>
+        <hp>3724</hp>
+        <dmg>231</dmg>
+        <dmgps>154</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Медленная</speed>
+        <hspeed>1.5</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Миньоны</name>
+        <source>/cards/minion.png</source>
+        <hp>209</hp>
+        <dmg>107</dmg>
+        <dmgps>107</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.0</hspeed>
+        <range>Малая</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Шар</name>
+        <source>/cards/chr_balloon.png</source>
+        <hp>1533</hp>
+        <dmg>584</dmg>
+        <dmgps>292</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>2.0</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Ведьма</name>
+        <source>/cards/witch.png</source>
+        <hp>765</hp>
+        <dmg>122</dmg>
+        <dmgps>110</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.1</hspeed>
+        <range>5.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Варвары</name>
+        <source>/cards/barbarians.png</source>
+        <hp>610</hp>
+        <dmg>174</dmg>
+        <dmgps>133</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Средняя.</speed>
+        <hspeed>1.3 </hspeed>
         <range>Малая</range>
         <targets>Земля</targets>
     </card>

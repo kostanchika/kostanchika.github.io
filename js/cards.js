@@ -12,6 +12,7 @@ function ready() {
     for (let counter = 0; counter < len; counter++) {
         var xmlcard = xmlDoc.getElementsByTagName('card')[counter].childNodes;
         let xmlimg = document.createElement('img');
+        xmlimg.alt = xmlcard[1].innerHTML;
         xmlimg.src = xmlcard[3].innerHTML;
         xmlimg.className = 'card';
         xmlimg.addEventListener('click', ToInform);
@@ -41,6 +42,7 @@ function ToInform() {
     let hcimg = hc[0].childNodes[1];
     let current = xmlDoc.getElementsByTagName('card')[ncounter];
     hcimg.src = current.childNodes[3].innerHTML; 
+    document.getElementById('cardName').innerHTML = current.childNodes[1].innerHTML;
     document.getElementById('hitpoints').innerHTML = current.childNodes[5].innerHTML;
     document.getElementById('damage').innerHTML = current.childNodes[7].innerHTML;
     document.getElementById('damagepersec').innerHTML = current.childNodes[9].innerHTML;
@@ -49,4 +51,5 @@ function ToInform() {
     document.getElementById('hspeed').innerHTML = current.childNodes[15].innerHTML;
     document.getElementById('range').innerHTML = current.childNodes[17].innerHTML;
     document.getElementById('targets').innerHTML = current.childNodes[19].innerHTML;
+    scroll(0, 0);
 }

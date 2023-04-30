@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 @media (max-width: 800px) {
   header .inside-header {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   header .inside-header .logo {
     margin-left: 5%;
@@ -14,14 +15,20 @@
     visibility: visible;
     -webkit-user-select: none;
        -moz-user-select: none;
+        -ms-user-select: none;
             user-select: none;
     right: 10%;
     font-size: 4rem;
     cursor: pointer;
   }
   header .inside-header #burger:checked ~ nav ul {
-    flex-direction: column;
-    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
   header .inside-header #burger:checked ~ nav ul li {
     border-bottom: 1px solid black;
@@ -41,16 +48,22 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
   position: relative;
   background: #D9D9D9;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 header img {
   height: 65px;
@@ -58,12 +71,21 @@ header img {
   margin-left: 5%;
 }
 header .inside-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 80px;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 header .inside-header input[type=checkbox] {
   visibility: hidden;
@@ -73,14 +95,25 @@ header .inside-header label[for=burger] {
 }
 header .inside-header nav {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 header .inside-header nav ul {
   width: 95%;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 header .inside-header nav ul li {
@@ -90,10 +123,12 @@ header .inside-header nav ul li {
 header .inside-header nav ul li a {
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
   text-decoration: none;
   color: black;
   font-size: 2rem;
+  -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 header .inside-header nav ul li a:hover {
@@ -107,11 +142,19 @@ header .inside-header nav ul li.active a {
 .Naming {
   background: #D9D9D9;
   height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 .Naming p {
+  text-align: center;
   font-family: "Merriweather", serif;
   font-size: 2rem;
 }
@@ -127,6 +170,7 @@ header .inside-header nav ul li.active a {
 .footer a {
   text-decoration: none;
   color: black;
+  -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 .footer a:hover {
@@ -134,10 +178,17 @@ header .inside-header nav ul li.active a {
 }
 .footer .lastline {
   margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .footer .lastline .small {
   margin-right: 0.5%;
@@ -162,17 +213,32 @@ main .decks .deck h3 {
   font-family: "Montserrat", sans-serif;
 }
 main .decks .deck .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
 }
 main .decks .deck .cards .row1, main .decks .deck .cards .row2 {
-  flex: 1 1 420px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 420px;
+          flex: 1 1 420px;
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 main .decks .deck .cards .row1 img, main .decks .deck .cards .row2 img {
   width: 25%;
@@ -180,6 +246,7 @@ main .decks .deck .cards .row1 img, main .decks .deck .cards .row2 img {
 main .decks .deck .info {
   margin: auto;
   background: white;
+  border-radius: 15px;
   width: 90%;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
