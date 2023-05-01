@@ -11,6 +11,12 @@
     position: relative;
   }
   header .inside-header label#fburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 5%;
     visibility: visible;
     -webkit-user-select: none;
@@ -36,6 +42,10 @@
   }
   header .inside-header #burger:checked ~ nav ul li a {
     display: inline;
+  }
+  header .inside-header nav ul {
+    -webkit-transform: translateY(-3%);
+            transform: translateY(-3%);
   }
   header .inside-header nav ul li {
     text-align: center;
@@ -167,6 +177,7 @@ header .inside-header nav ul li.active a {
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 2rem;
+  padding: 0 1%;
 }
 .footer a {
   text-decoration: none;
@@ -196,13 +207,101 @@ header .inside-header nav ul li.active a {
   font-size: 1rem;
 }
 
+main section .About .line .sticker, main section .About .line .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 800px) {
+  main section div.About div.line div.text p {
+    font-size: 24px;
+  }
+  main section div.About div.line div.sticker {
+    display: none;
+  }
+  main section div.About div.line-reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  main section div.About div.line-reverse img {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+}
 main section .About {
   background: url(../imgs/popular.webp);
+  background-attachment: fixed;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+main section .About .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3%;
+}
+main section .About .line:nth-child(2n-1) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+main section .About .line:last-child {
+  margin-bottom: 0;
+}
+main section .About .line .text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 150px;
+          flex: 1 1 150px;
+  background: #EDEDED;
+  border-radius: 15px;
   padding: 2%;
 }
-main section .About p {
-  color: white;
+main section .About .line .text p {
+  color: black;
   font-size: 36px;
   font-family: "Montserrat", sans-serif;
-  text-indent: 12px;
+}
+main section .About .line .text p span.bold {
+  font-weight: 700;
+}
+main section .About .line .sticker {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100px;
+          flex: 1 1 100px;
+}
+main section .About .line .sticker img {
+  height: 300px;
+}
+main section .About .line-reverse {
+  display: none;
 }

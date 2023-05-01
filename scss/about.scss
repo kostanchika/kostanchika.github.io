@@ -1,15 +1,77 @@
 @import "general";
 
+@media (max-width: 800px) {
+    main {
+        section {
+            div.About {
+                div.line {
+                    div.text {
+                        p {
+                            font-size: 24px;
+                        }   
+                    }
+                    div.sticker {
+                        display: none;
+                    }
+                }
+                div.line-reverse {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    img {
+                        transform: translateY(10%);
+                    }
+                }
+            }
+        }
+    }
+}
+
 main {
     section {
         .About {
             background: url(../imgs/popular.webp);
+            background-attachment: fixed;
             padding: 2%;
-            p {
-                color: white;
-                font-size: 36px;
-                font-family: 'Montserrat', sans-serif;
-                text-indent: 12px;
+            display: flex;
+            flex-direction: column;
+            .line {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-around;
+                align-items: center;
+                margin-bottom: 3%;
+                &:nth-child(2n-1) {
+                    flex-direction: row;
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                .text {
+                    flex: 1 1 150px;
+                    background: $ThemeColor;
+                    border-radius: 15px;
+                    padding: 2%;
+                    @extend %center;
+                    p {
+                        color: black;
+                        font-size: 36px;
+                        font-family: 'Montserrat', sans-serif;
+                        span.bold {
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .sticker {
+                    @extend %center;
+                    flex: 1 1 100px;
+                    img {
+                        height: 300px;
+                    }
+                }
+            }
+            .line-reverse {
+                display: none;
             }
         }
     }

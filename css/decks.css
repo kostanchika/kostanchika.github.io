@@ -11,6 +11,12 @@
     position: relative;
   }
   header .inside-header label#fburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 5%;
     visibility: visible;
     -webkit-user-select: none;
@@ -36,6 +42,10 @@
   }
   header .inside-header #burger:checked ~ nav ul li a {
     display: inline;
+  }
+  header .inside-header nav ul {
+    -webkit-transform: translateY(-3%);
+            transform: translateY(-3%);
   }
   header .inside-header nav ul li {
     text-align: center;
@@ -167,6 +177,7 @@ header .inside-header nav ul li.active a {
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 2rem;
+  padding: 0 1%;
 }
 .footer a {
   text-decoration: none;

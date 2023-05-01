@@ -11,6 +11,12 @@
     position: relative;
   }
   header .inside-header label#fburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 5%;
     visibility: visible;
     -webkit-user-select: none;
@@ -36,6 +42,10 @@
   }
   header .inside-header #burger:checked ~ nav ul li a {
     display: inline;
+  }
+  header .inside-header nav ul {
+    -webkit-transform: translateY(-3%);
+            transform: translateY(-3%);
   }
   header .inside-header nav ul li {
     text-align: center;
@@ -167,6 +177,7 @@ header .inside-header nav ul li.active a {
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 2rem;
+  padding: 0 1%;
 }
 .footer a {
   text-decoration: none;
@@ -194,6 +205,18 @@ header .inside-header nav ul li.active a {
 .footer .lastline .small {
   margin-right: 0.5%;
   font-size: 1rem;
+}
+
+main section .HeadCard .info .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 * {
@@ -245,19 +268,10 @@ main section .HeadCard .info .line {
   width: 89%;
   height: 50px;
   background: #EDEDED;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding: 1% 4%;
   border: 1px solid black;
   border-radius: 25px;

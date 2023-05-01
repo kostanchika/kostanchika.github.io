@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE decks
+[
+<!ELEMENT decks (#PCDATA|deck)*>
+<!ELEMENT deck (#PCDATA|deckName|card|winRate|cost)*>
+<!ELEMENT deckName (#PCDATA)>
+<!ELEMENT card (#PCDATA)>
+<!ELEMENT winRate (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+]>
+<decks>
+    <deck>
+        <deckName>Hog 2.6</deckName>
+        <card>/cards/hog_rider.png</card>
+        <card>/cards/musketeer.png</card>
+        <card>/cards/icegolem.png</card>
+        <card>/cards/skeletons.png</card>
+ e      <card>/cards/snow_spirits.png</card>
+        <card>/cards/chaos_cannon.png</card>
+        <card>/cards/the_log.png</card>
+        <card>/cards/fire_fireball.png</card>
+        <winRate>53%</winRate>
+        <cost>2.6</cost>
+    </deck>
+    <deck>
+        <deckName>Goblin Drill Bait </deckName>
+        <card>/cards/goblin_gang.png</card>
+        <card>/cards/goblindrill.png</card>
+        <card>/cards/snow_spirits.png</card>
+        <card>/cards/building_inferno.png</card>
+        <card>/cards/knight.png</card>
+        <card>/cards/the_log.png</card>
+        <card>/cards/princess.png</card>
+        <card>/cards/rocket.png</card>
+        <winRate>56%</winRate>
+        <cost>3.4</cost>
+    </deck>
+</decks>

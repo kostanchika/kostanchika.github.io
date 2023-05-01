@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE best
+[
+<!ELEMENT best (#PCDATA|players|clans)*>
+<!ELEMENT players (#PCDATA|player)*>
+<!ELEMENT clans (#PCDATA|clan)*>
+<!ELEMENT player (#PCDATA|place|name|trophies)*>
+<!ELEMENT clan (#PCDATA|place|name|trophies)*>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT trophies (#PCDATA)>
+]>
+<best>
+    <players>
+        <player>
+            <place>1</place>
+            <name>Flash Light</name>
+            <trophies>3295</trophies>
+        </player>
+        <player>
+            <place>2</place>
+            <name>Light Bulb</name>
+            <trophies>3284</trophies>
+        </player>
+        <player>
+            <place>3</place>
+            <name>Mohamed Light</name>
+            <trophies>3282</trophies>
+        </player>
+        <player>
+            <place>4</place>
+            <name>CAL Pedro</name>
+            <trophies>3263</trophies>
+        </player>    
+        <player>
+            <place>5</place>
+            <name>Ryley</name>
+            <trophies>3258</trophies>
+        </player>
+    </players>
+    <clans>
+        <clan>
+            <place>1</place>
+            <name>WarxUnion2</name>
+            <trophies>6924</trophies>
+        </clan>
+        <clan>
+            <place>2</place>
+            <name>Calalas Espana</name>
+            <trophies>6852</trophies>
+        </clan>
+        <clan>
+            <place>3</place>
+            <name>! Shock-13 !</name>
+            <trophies>5980</trophies>
+        </clan>
+        <clan>
+            <place>4</place>
+            <name>Robert's army</name>
+            <trophies>5845</trophies>
+        </clan>
+        <clan>
+            <place>5</place>
+            <name>River Plate 2.</name>
+            <trophies>5583</trophies>
+        </clan>
+    </clans>
+</best>

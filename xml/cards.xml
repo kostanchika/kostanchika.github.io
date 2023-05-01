@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cards
 [
-<!ELEMENT cards (#PCDATA|card|name|source|hp|dmg|dmgps|rarity|speed|hspeed|range|targets)*>
+<!ELEMENT cards (#PCDATA|card)*>
 <!ELEMENT card (#PCDATA|name|source|hp|dmg|dmgps|rarity|speed|hspeed|range|targets)*>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT source (#PCDATA)>
@@ -123,4 +123,857 @@
         <range>Малая</range>
         <targets>Земля</targets>
     </card>
+    <card>
+        <name>Голем</name>
+        <source>/cards/chr_golem.png</source>
+        <hp>4672</hp>
+        <dmg>284</dmg>
+        <dmgps>113</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Медленная</speed>
+        <hspeed>2.5</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Скелеты</name>
+        <source>/cards/skeletons.png</source>
+        <hp>74</hp>
+        <dmg>74</dmg>
+        <dmgps>74</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.0</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Валькирия</name>
+        <source>/cards/valkyrie.png</source>
+        <hp>1737</hp>
+        <dmg>243</dmg>
+        <dmgps>162</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>1.5</speed>
+        <hspeed>Малая</hspeed>
+        <range>2</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Армия скелетов</name>
+        <source>/cards/skeleton_horde.png</source>
+        <hp>74</hp>
+        <dmg>74</dmg>
+        <dmgps>74</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.0</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Подрывник</name>
+        <source>/cards/bomber.png</source>
+        <hp>302</hp>
+        <dmg>202</dmg>
+        <dmgps>112</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.8</hspeed>
+        <range>4.5</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Мушкетер</name>
+        <source>/cards/musketeer.png</source>
+        <hp>656</hp>
+        <dmg>198</dmg>
+        <dmgps>198</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.0</hspeed>
+        <range>6.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Дракончик</name>
+        <source>/cards/baby_dragon.png</source>
+        <hp>1051</hp>
+        <dmg>146</dmg>
+        <dmgps>97</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.5</hspeed>
+        <range>3.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Принц</name>
+        <source>/cards/prince.png</source>
+        <hp>1752</hp>
+        <dmg>357</dmg>
+        <dmgps>255</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.4</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Колдун</name>
+        <source>/cards/wizard.png</source>
+        <hp>656</hp>
+        <dmg>256</dmg>
+        <dmgps>182</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.4</hspeed>
+        <range>5.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Мини-П.Е.К.К.А.</name>
+        <source>/cards/minipekka.png</source>
+        <hp>1239</hp>
+        <dmg>656</dmg>
+        <dmgps>410</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.6</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Гоблины-копейщики</name>
+        <source>/cards/goblin_archer.png</source>
+        <hp>121</hp>
+        <dmg>74</dmg>
+        <dmgps>43</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>1.7</speed>
+        <hspeed>Очень быстрая</hspeed>
+        <range>5.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Гигантский скелет</name>
+        <source>/cards/giant_skeleton.png</source>
+        <hp>3124</hp>
+        <dmg>243</dmg>
+        <dmgps>173</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.4</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Всадник на кабане</name>
+        <source>/cards/hog_rider.png</source>
+        <hp>1544</hp>
+        <dmg>289</dmg>
+        <dmgps>180</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>1.6 с.</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Орда миньонов</name>
+        <source>/cards/minion_horde.png</source>
+        <hp>209</hp>
+        <dmg>107</dmg>
+        <dmgps>107</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.0</hspeed>
+        <range>Малая</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Ледяной колдун</name>
+        <source>/cards/ice_wizard.png</source>
+        <hp>625</hp>
+        <dmg>82</dmg>
+        <dmgps>48</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.7</hspeed>
+        <range>2.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Королевский гигант</name>
+        <source>/cards/royalgiant.png</source>
+        <hp>2796</hp>
+        <dmg>279</dmg>
+        <dmgps>164</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Медленная</speed>
+        <hspeed>1.7</hspeed>
+        <range>5.0</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Стражи</name>
+        <source>/cards/skeleton_warriors.png</source>
+        <hp>74</hp>
+        <dmg>219</dmg>
+        <dmgps>110</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.0</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Принцесса</name>
+        <source>/cards/princess.png</source>
+        <hp>237</hp>
+        <dmg>154</dmg>
+        <dmgps>51</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>3.0</hspeed>
+        <range>9.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Темный принц</name>
+        <source>/cards/dark_prince.png</source>
+        <hp>1095</hp>
+        <dmg>219</dmg>
+        <dmgps>173</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.3</hspeed>
+        <range>Малая</range>
+        <targets>226</targets>
+    </card>
+    <card>
+        <name>Три мушкетера</name>
+        <source>/cards/three_musketeers.png</source>
+        <hp>656</hp>
+        <dmg>198</dmg>
+        <dmgps>198</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.0</hspeed>
+        <range>6.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Адская гончая</name>
+        <source>/cards/lava_hound.png</source>
+        <hp>3465</hp>
+        <dmg>49</dmg>
+        <dmgps>37</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Медленная</speed>
+        <hspeed>1.3</hspeed>
+        <range>3.5</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Ледяной дух</name>
+        <source>/cards/snow_spirits.png</source>
+        <hp>100</hp>
+        <dmg>100</dmg>
+        <dmgps>100</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>1.3</hspeed>
+        <range>2.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Огненный дух</name>
+        <source>/cards/fire_spirits.png</source>
+        <hp>188</hp>
+        <dmg>188</dmg>
+        <dmgps>188</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>0.3</hspeed>
+        <range>2.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Шахтер</name>
+        <source>/cards/miner.png</source>
+        <hp>1100</hp>
+        <dmg>176</dmg>
+        <dmgps>52</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.2</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Спарки</name>
+        <source>/cards/zapMachine.png</source>
+        <hp>1320</hp>
+        <dmg>1210</dmg>
+        <dmgps>302</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Медленная</speed>
+        <hspeed>4.0</hspeed>
+        <range>5.0</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Вышибала</name>
+        <source>/cards/bowler.png</source>
+        <hp>1898</hp>
+        <dmg>262</dmg>
+        <dmgps>104</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Медленная</speed>
+        <hspeed>2.5</hspeed>
+        <range>4.0</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Дровосек</name>
+        <source>/cards/rage_barbarian.png</source>
+        <hp>1166</hp>
+        <dmg>220</dmg>
+        <dmgps>275</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>0.8</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Боевой таран</name>
+        <source>/cards/battle_ram.png</source>
+        <hp>829</hp>
+        <dmg>260</dmg>
+        <dmgps>521</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>0.4</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Пламенный дракон</name>
+        <source>/cards/inferno_dragon.png</source>
+        <hp>1177</hp>
+        <dmg>33</dmg>
+        <dmgps>82</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>0.4</hspeed>
+        <range>3.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Ледяной голем</name>
+        <source>/cards/icegolem.png</source>
+        <hp>1090</hp>
+        <dmg>77</dmg>
+        <dmgps>30</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Малая</speed>
+        <hspeed>2.5</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Мегаминьон</name>
+        <source>/cards/mega_minion.png</source>
+        <hp>762</hp>
+        <dmg>283</dmg>
+        <dmgps>176</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.6</hspeed>
+        <range>Малая</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Гоблин с дротиками</name>
+        <source>/cards/blowdart_goblin.png</source>
+        <hp>237</hp>
+        <dmg>119</dmg>
+        <dmgps>170</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>0.7</hspeed>
+        <range>6.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Банда гоблинов</name>
+        <source>/cards/goblin_gang.png</source>
+        <hp>184</hp>
+        <dmg>109</dmg>
+        <dmgps>99</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>1.7</hspeed>
+        <range>Малая</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Громовержец</name>
+        <source>/cards/electro_wizard.png</source>
+        <hp>649</hp>
+        <dmg>200</dmg>
+        <dmgps>110</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>0.5</hspeed>
+        <range>2.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Элитные варвары</name>
+        <source>/cards/elite_barbarians.png</source>
+        <hp>1220</hp>
+        <dmg>349</dmg>
+        <dmgps>249</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.4</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Охотник</name>
+        <source>/cards/hunter.png</source>
+        <hp>765</hp>
+        <dmg>77</dmg>
+        <dmgps>35</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>2.2</hspeed>
+        <range>4.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Палач</name>
+        <source>/cards/executioner.png</source>
+        <hp>1168</hp>
+        <dmg>154</dmg>
+        <dmgps>64</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>2.4</hspeed>
+        <range>4.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Бандитка</name>
+        <source>/cards/bandit.png</source>
+        <hp>825</hp>
+        <dmg>176</dmg>
+        <dmgps>176</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.0</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Королевские рекруты</name>
+        <source>/cards/royal_recruits.png</source>
+        <hp>484</hp>
+        <dmg>219</dmg>
+        <dmgps>121</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.3</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Ночная ведьма</name>
+        <source>/cards/nightwitch.png</source>
+        <hp>825</hp>
+        <dmg>286</dmg>
+        <dmgps>220</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Среднаяя</speed>
+        <hspeed>1.3</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Летучие мыши</name>
+        <source>/cards/bats.png</source>
+        <hp>74</hp>
+        <dmg>74</dmg>
+        <dmgps>56</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>1.3</hspeed>
+        <range>Малая</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Королевский призрак</name>
+        <source>/cards/ghost.png</source>
+        <hp>1100</hp>
+        <dmg>237</dmg>
+        <dmgps>131</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>1.8</speed>
+        <hspeed>1.0</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Всадница на баране</name>
+        <source>/cards/ram_rider.png</source>
+        <hp>1607</hp>
+        <dmg>242</dmg>
+        <dmgps>134</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.8</hspeed>
+        <range>Средняя</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Мини-генераторы</name>
+        <source>/cards/zappies.png</source>
+        <hp>482</hp>
+        <dmg>106</dmg>
+        <dmgps>50</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>2.1</hspeed>
+        <range>4.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Разбойники</name>
+        <source>/cards/rascals.png</source>
+        <hp>1665</hp>
+        <dmg>121</dmg>
+        <dmgps>80</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>0.9</hspeed>
+        <range>1.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Повозка с пушкой</name>
+        <source>/cards/cannon_cart.png</source>
+        <hp>814</hp>
+        <dmg>194</dmg>
+        <dmgps>194</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.0</hspeed>
+        <range>5.5</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Мегарыцарь</name>
+        <source>/cards/mega_knight.png</source>
+        <hp>3630</hp>
+        <dmg>244</dmg>
+        <dmgps>244</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Малая</speed>
+        <hspeed>1.7</hspeed>
+        <range>Средняя</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Бочка со скелетами</name>
+        <source>/cards/skeleton_balloon.png</source>
+        <hp>121</hp>
+        <dmg>121</dmg>
+        <dmgps>121</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>Быстрая</hspeed>
+        <range>Малая</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Летучка</name>
+        <source>/cards/flying_machine.png</source>
+        <hp>559</hp>
+        <dmg>156</dmg>
+        <dmgps>141</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.1</hspeed>
+        <range>6.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Стенобои</name>
+        <source>/cards/wallbreaker.png</source>
+        <hp>357</hp>
+        <dmg>357</dmg>
+        <dmgps>0</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>1.2</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Королевские кабаны</name>
+        <source>/cards/royal_hog.png</source>
+        <hp>762</hp>
+        <dmg>67</dmg>
+        <dmgps>55</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>1.2</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Гоблин-гигант</name>
+        <source>/cards/goblin_giant.png</source>
+        <hp>2871</hp>
+        <dmg>160</dmg>
+        <dmgps>106</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Малая</speed>
+        <hspeed>1.5</hspeed>
+        <range>Средняя</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Рыбак</name>
+        <source>/cards/fisherman.png</source>
+        <hp>792</hp>
+        <dmg>176</dmg>
+        <dmgps>135</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.3</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Магический лучник</name>
+        <source>/cards/magic_archer.png</source>
+        <hp>484</hp>
+        <dmg>122</dmg>
+        <dmgps>110</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.1</hspeed>
+        <range>7.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Электродракон</name>
+        <source>/cards/electro_dragon.png</source>
+        <hp>867</hp>
+        <dmg>175</dmg>
+        <dmgps>83</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Средняя</speed>
+        <hspeed>2.1</hspeed>
+        <range>3.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Огненная лучница</name>
+        <source>/cards/firecracker.png</source>
+        <hp>277</hp>
+        <dmg>58</dmg>
+        <dmgps>19</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>3.0</hspeed>
+        <range>6.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Шустрый шахтер</name>
+        <source>/cards/mightyminer.png</source>
+        <hp>3059</hp>
+        <dmg>250</dmg>
+        <dmgps>600</dmgps>
+        <rarity>Чемпион</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.0</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Эликсирный голем</name>
+        <source>/cards/elixir_golem.png</source>
+        <hp>1428</hp>
+        <dmg>231</dmg>
+        <dmgps>210</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Малая</speed>
+        <hspeed>1.1</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Целительница-воин</name>
+        <source>/cards/battle_healer.png</source>
+        <hp>1563</hp>
+        <dmg>135</dmg>
+        <dmgps>90</dmgps>
+        <rarity>Редкая</rarity>
+        <speed>Малая</speed>
+        <hspeed>1.5</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Король скелетов</name>
+        <source>/cards/skeletonking.png</source>
+        <hp>3059</hp>
+        <dmg>272</dmg>
+        <dmgps>170</dmgps>
+        <rarity>Чемпион</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.6</hspeed>
+        <range>Средняя</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Супермагический лучник</name>
+        <source>/cards/supermagicarcher.png</source>
+        <hp>638</hp>
+        <dmg>1</dmg>
+        <dmgps>0</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>7.0</speed>
+        <hspeed>2.0</hspeed>
+        <range>7.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Королева лучниц</name>
+        <source>/cards/queen_archers.png</source>
+        <hp>1330</hp>
+        <dmg>299</dmg>
+        <dmgps>249</dmgps>
+        <rarity>Чемпион</rarity>
+        <speed>Средняя</speed>
+        <hspeed>1.2</hspeed>
+        <range>5.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Санта на кабане</name>
+        <source>/cards/superhogrider.png</source>
+        <hp>1540</hp>
+        <dmg>291</dmg>
+        <dmgps>181</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Малая</speed>
+        <hspeed>1.6</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Золотой рыцарь</name>
+        <source>/cards/goldenknight.png</source>
+        <hp>2394</hp>
+        <dmg>212</dmg>
+        <dmgps>235</dmgps>
+        <rarity>Чемпион</rarity>
+        <speed>Средняя</speed>
+        <hspeed>0.9</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Ледяной суперголем</name>
+        <source>/cards/supericegolem.png</source>
+        <hp>3300</hp>
+        <dmg>1100</dmg>
+        <dmgps>40</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Малая</speed>
+        <hspeed>2.5</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Монах</name>
+        <source>/cards/monk.png</source>
+        <hp>2660</hp>
+        <dmg>300</dmg>
+        <dmgps>450</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>0.8</hspeed>
+        <range>Малая</range>
+        <targets>Земля</targets>
+    </card>
+    <card>
+        <name>Костяные драконы</name>
+        <source>/cards/skeletondragon.png</source>
+        <hp>484</hp>
+        <dmg>146</dmg>
+        <dmgps>76</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Быстрая</speed>
+        <hspeed>1.9</hspeed>
+        <range>3.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Ведьмина бабушка</name>
+        <source>/cards/motherwitch.png</source>
+        <hp>484</hp>
+        <dmg>121</dmg>
+        <dmgps>121</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>5.5</speed>
+        <hspeed>1.0</hspeed>
+        <range>5.5</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Электрический дух</name>
+        <source>/cards/electrospirit.png</source>
+        <hp>90</hp>
+        <dmg>90</dmg>
+        <dmgps>90</dmgps>
+        <rarity>Обычная</rarity>
+        <speed>Очень быстрая</speed>
+        <hspeed>0.5</hspeed>
+        <range>Мадая</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
+        <name>Электрогигант</name>
+        <source>/cards/electrogiant.png</source>
+        <hp>3518</hp>
+        <dmg>148</dmg>
+        <dmgps>70</dmgps>
+        <rarity>Эпическая</rarity>
+        <speed>Малая</speed>
+        <hspeed>2.1</hspeed>
+        <range>Малая</range>
+        <targets>Здания</targets>
+    </card>
+    <card>
+        <name>Феникс</name>
+        <source>/cards/phoenix.png</source>
+        <hp>957</hp>
+        <dmg>198</dmg>
+        <dmgps>220</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Малая</speed>
+        <hspeed>0.9</hspeed>
+        <range>Малая</range>
+        <targets>Земля и воздух</targets>
+    </card>
 </cards>
+    

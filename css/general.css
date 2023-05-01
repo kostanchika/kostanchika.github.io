@@ -37,6 +37,10 @@
   header .inside-header #burger:checked ~ nav ul li a {
     display: inline;
   }
+  header .inside-header nav ul {
+    -webkit-transform: translateY(-3%);
+            transform: translateY(-3%);
+  }
   header .inside-header nav ul li {
     text-align: center;
     background: #EDEDED;
@@ -167,6 +171,7 @@ header .inside-header nav ul li.active a {
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 2rem;
+  padding: 0 1%;
 }
 .footer a {
   text-decoration: none;

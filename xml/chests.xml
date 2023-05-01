@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chests
+[
+<!ELEMENT chests (#PCDATA|chest)*>
+<!ELEMENT chest (#PCDATA|source|cards|gold|features)*>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT cards (#PCDATA)>
+<!ELEMENT gold (#PCDATA)>
+<!ELEMENT features (#PCDATA)>
+]>
+<chests>
+    <chest>
+        <source>/imgs/chests/silver.webp</source>
+        <cards>21</cards>
+        <gold>147-168</gold>
+        <features>Нет</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/golden.webp</source>
+        <cards>42</cards>
+        <gold>588-672</gold>
+        <features>Нет</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/royale.webp</source>
+        <cards>85</cards>
+        <gold>1190-1360</gold>
+        <features>Содержит от 2 до 4 кристаллов</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/magic.webp</source>
+        <cards>106</cards>
+        <gold>1696</gold>
+        <features>Нет</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/big.webp</source>
+        <cards>381</cards>
+        <gold>3339</gold>
+        <features>Нет</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/epic.webp</source>
+        <cards>20</cards>
+        <gold>0</gold>
+        <features>Нет</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/legendary.webp</source>
+        <cards>1</cards>
+        <gold>0</gold>
+        <features>Содержит одну легендарную карту с любой арену</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/lightning.webp</source>
+        <cards>137</cards>
+        <gold>690</gold>
+        <features>Можно заменить любую из выпавших карт 6 раз</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/megalightning.webp</source>
+        <cards>954</cards>
+        <gold>8586</gold>
+        <features>Можно заменить любую из выпавших карт 9 раз</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/fortune.webp</source>
+        <cards>274</cards>
+        <gold>1900</gold>
+        <features>Содержит как минимум 2 стопки указанных карт</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/kings.webp</source>
+        <cards>290</cards>
+        <gold>3500</gold>
+        <features>Нет</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/legendary_kings.webp</source>
+        <cards>380</cards>
+        <gold>4600</gold>
+        <features>Предоставляется выбор между одной из двух выпавших карт</features>
+    </chest>
+    <chest>
+        <source>/imgs/chests/joker.webp</source>
+        <cards>271</cards>
+        <gold>9485</gold>
+        <features>Все карты являются картами-джокерами. Игроки доистигшие 14-го уровня гарантированно получают карту-чемпиона</features>
+    </chest>
+</chests>

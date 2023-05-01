@@ -37,6 +37,10 @@
   header .inside-header #burger:checked ~ nav ul li a {
     display: inline;
   }
+  header .inside-header nav ul {
+    -webkit-transform: translateY(-3%);
+            transform: translateY(-3%);
+  }
   header .inside-header nav ul li {
     text-align: center;
     background: #EDEDED;
@@ -167,6 +171,7 @@ header .inside-header nav ul li.active a {
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 2rem;
+  padding: 0 1%;
 }
 .footer a {
   text-decoration: none;
@@ -196,10 +201,25 @@ header .inside-header nav ul li.active a {
   font-size: 1rem;
 }
 
+main section .best-content .players .player .trophies, main section .best-content .players .clan .trophies, main section .best-content .clans .player .trophies, main section .best-content .clans .clan .trophies, main section .best-content .players .player .place, main section .best-content .players .clan .place, main section .best-content .clans .player .place, main section .best-content .clans .clan .place, main section .Popular-content .deck .info, main section .Popular-content .deck, main section .background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media (max-width: 390px) {
   .best-content .players .player, .best-content .players .clan, .best-content .clans .player, .best-content .clans .clan {
     font-size: 1.5rem;
   }
+}
+main section .background img {
+  width: 100%;
 }
 main section .Popular-content {
   width: 100%;
@@ -216,7 +236,7 @@ main section .Popular-content {
       flex-wrap: wrap;
   padding: 5% 0;
 }
-main section .Popular-content .deck1, main section .Popular-content .deck2 {
+main section .Popular-content .deck {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 400px;
           flex: 1 1 400px;
@@ -224,20 +244,12 @@ main section .Popular-content .deck1, main section .Popular-content .deck2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
-main section .Popular-content .deck1 .row-container, main section .Popular-content .deck2 .row-container {
+main section .Popular-content .deck .row-container {
   width: 100%;
   height: 55%;
   display: -webkit-box;
@@ -252,7 +264,7 @@ main section .Popular-content .deck1 .row-container, main section .Popular-conte
       -ms-flex-direction: row;
           flex-direction: row;
 }
-main section .Popular-content .deck1 .row-container .row1, main section .Popular-content .deck1 .row-container .row2, main section .Popular-content .deck2 .row-container .row1, main section .Popular-content .deck2 .row-container .row2 {
+main section .Popular-content .deck .row-container .row1, main section .Popular-content .deck .row-container .row2 {
   width: 100%;
   height: 50%;
   display: -webkit-box;
@@ -263,37 +275,28 @@ main section .Popular-content .deck1 .row-container .row1, main section .Popular
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-main section .Popular-content .deck1 .row-container .row1 img, main section .Popular-content .deck1 .row-container .row2 img, main section .Popular-content .deck2 .row-container .row1 img, main section .Popular-content .deck2 .row-container .row2 img {
+main section .Popular-content .deck .row-container .row1 img, main section .Popular-content .deck .row-container .row2 img {
   -ms-flex-negative: 1;
       flex-shrink: 1;
   width: 25%;
 }
-main section .Popular-content .deck1 .info, main section .Popular-content .deck2 .info {
+main section .Popular-content .deck .info {
   width: 100%;
   border-radius: 15px;
   background: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 2% 0;
 }
-main section .Popular-content .deck1 .info p, main section .Popular-content .deck2 .info p {
+main section .Popular-content .deck .info p {
   font-family: "Montserrat", sans-serif;
 }
-main section .Popular-content .deck1 .info p .elixir, main section .Popular-content .deck2 .info p .elixir {
+main section .Popular-content .deck .info p .elixir {
   color: #FF1EED;
 }
-main section .Popular-content .deck1 .info p .WinRateGood, main section .Popular-content .deck2 .info p .WinRateGood {
+main section .Popular-content .deck .info p .WinRateGood {
   color: #0EB400;
 }
 main section .best-content {
@@ -364,29 +367,12 @@ main section .best-content .players .player, main section .best-content .players
 main section .best-content .players .player .place, main section .best-content .players .clan .place, main section .best-content .clans .player .place, main section .best-content .clans .clan .place {
   width: 30px;
   height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: white;
   font-size: 2rem;
   font-weight: 700;
 }
 main section .best-content .players .player .name, main section .best-content .players .clan .name, main section .best-content .clans .player .name, main section .best-content .clans .clan .name {
   width: 60%;
-}
-main section .best-content .players .player .trophies, main section .best-content .players .clan .trophies, main section .best-content .clans .player .trophies, main section .best-content .clans .clan .trophies {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 main section .best-content .players .player .trophies img, main section .best-content .players .clan .trophies img, main section .best-content .clans .player .trophies img, main section .best-content .clans .clan .trophies img {
   position: relative;

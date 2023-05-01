@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE decks
+[
+<!ELEMENT decks (#PCDATA|deck)*>
+<!ELEMENT deck (#PCDATA|deckName|card|winRate|cost)*>
+<!ELEMENT deckName (#PCDATA)>
+<!ELEMENT card (#PCDATA)>
+<!ELEMENT winRate (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+]>
+<decks>
+    <deck>
+        <deckName>Hog 2.6</deckName>
+        <card>/cards/hog_rider.png</card>
+        <card>/cards/musketeer.png</card>
+        <card>/cards/icegolem.png</card>
+        <card>/cards/skeletons.png</card>
+ e      <card>/cards/snow_spirits.png</card>
+        <card>/cards/chaos_cannon.png</card>
+        <card>/cards/the_log.png</card>
+        <card>/cards/fire_fireball.png</card>
+        <winRate>53%</winRate>
+        <cost>2.6</cost>
+    </deck>
+    <deck>
+        <deckName>PEKKA Ghost bridge spam</deckName>
+        <card>/cards/bandit.png</card>
+        <card>/cards/ghost.png</card>
+        <card>/cards/magic_archer.png</card>
+        <card>/cards/pekka.png</card>
+        <card>/cards/poison.png</card>
+        <card>/cards/battle_ram.png</card>
+        <card>/cards/zap.png</card>
+        <card>/cards/electro_wizard.png</card>
+        <winRate>55%</winRate>
+        <cost>3.9</cost>
+    </deck>
+    <deck>
+        <deckName>Hog Valk FC 2.8 Cycle</deckName>
+        <card>/cards/hog_rider.png</card>
+        <card>/cards/valkyrie.png</card>
+        <card>/cards/earthquake.png</card>
+        <card>/cards/firecracker.png</card>
+        <card>/cards/skeletons.png</card>
+        <card>/cards/snow_spirits.png</card>
+        <card>/cards/the_log.png</card>
+        <card>/cards/building_tesla.png</card>
+        <winRate>55%</winRate>
+        <cost>2.8</cost>
+    </deck>
+    <deck>
+        <deckName>SK GY GobHut Phoenix</deckName>
+        <card>/cards/graveyard.png</card>
+        <card>/cards/skeletonking.png</card>
+        <card>/cards/phoenix.png</card>
+        <card>/cards/poison.png</card>
+        <card>/cards/goblins.png</card>
+        <card>/cards/rascals.png</card>
+        <card>/cards/goblin_hut.png</card>
+        <card>/cards/barb_barrel.png</card>
+        <winRate>60%</winRate>
+        <cost>4.5</cost>
+    </deck>
+    <deck>
+        <deckName>Goblin Drill Bait </deckName>
+        <card>/cards/goblin_gang.png</card>
+        <card>/cards/goblindrill.png</card>
+        <card>/cards/snow_spirits.png</card>
+        <card>/cards/building_inferno.png</card>
+        <card>/cards/knight.png</card>
+        <card>/cards/the_log.png</card>
+        <card>/cards/princess.png</card>
+        <card>/cards/rocket.png</card>
+        <winRate>56%</winRate>
+        <cost>3.4</cost>
+    </deck>
+    <deck>
+        <deckName>RHogs GS FishBoy Ghost</deckName>
+        <card>/cards/royal_hog.png</card>
+        <card>/cards/giant_skeleton.png</card>
+        <card>/cards/flying_machine.png</card>
+        <card>/cards/ghost.png</card>
+        <card>/cards/fisherman.png</card>
+        <card>/cards/mirror.png</card>
+        <card>/cards/zappies.png</card>
+        <card>/cards/order_volley.png</card>
+        <winRate>60%</winRate>
+        <cost>3.7</cost>
+    </deck>
+    <deck>
+        <deckName>MM WB Miner Poison</deckName>
+        <card>/cards/wallbreaker.png</card>
+        <card>/cards/miner.png</card>
+        <card>/cards/mightyminer.png</card>
+        <card>/cards/musketeer.png</card>
+        <card>/cards/poison.png</card>
+        <card>/cards/goblins.png</card>
+        <card>/cards/the_log.png</card>
+        <card>/cards/bomb_tower.png</card>
+        <winRate>54%</winRate>
+        <cost>3.1</cost>
+    </deck>
+    <deck>
+        <deckName>X-Bow 3.0 Cycle</deckName>
+        <card>/cards/building_xbow.png</card>
+        <card>/cards/knight.png</card>
+        <card>/cards/fire_fireball.png</card>
+        <card>/cards/archers.png</card>
+        <card>/cards/skeletons.png</card>
+        <card>/cards/snow_spirits.png</card>
+        <card>/cards/the_log.png</card>
+        <card>/cards/building_tesla.png</card>
+        <winRate>50%</winRate>
+        <cost>3.0</cost>
+    </deck>
+    <deck>
+        <deckName>EGiant Phoenix Golden Knight Nado</deckName>
+        <card>/cards/barb_barrel.png</card>
+        <card>/cards/bomber.png</card>
+        <card>/cards/chaos_cannon.png</card>
+        <card>/cards/electrogiant.png</card>
+        <card>/cards/goldenknight.png</card>
+        <card>/cards/lightning.png</card>
+        <card>/cards/phoenix.png</card>
+        <card>/cards/tornado.png</card>
+        <winRate>57%</winRate>
+        <cost>3.9</cost>
+    </deck>
+    <deck>
+        <deckName>Giant Loon</deckName>
+        <card>/cards/archers.png</card>
+        <card>/cards/order_volley.png</card>
+        <card>/cards/chr_balloon.png</card>
+        <card>/cards/giant.png</card>
+        <card>/cards/knight.png</card>
+        <card>/cards/minion.png</card>
+        <card>/cards/musketeer.png</card>
+        <card>/cards/tombstone.png</card>
+        <winRate>57%</winRate>
+        <cost>3.9</cost>
+    </deck>
+    <deck>
+        <deckName>Archer Queen Mega Knight Wall Breakers</deckName>
+        <card>/cards/queen_archers.png</card>
+        <card>/cards/order_volley.png</card>
+        <card>/cards/bandit.png</card>
+        <card>/cards/bats.png</card>
+        <card>/cards/mega_knight.png</card>
+        <card>/cards/prince.png</card>
+        <card>/cards/wallbreaker.png</card>
+        <card>/cards/zap.png</card>
+        <winRate>54%</winRate>
+        <cost>3.6</cost>
+    </deck>
+</decks>

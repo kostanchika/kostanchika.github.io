@@ -15,9 +15,7 @@ main {
                 padding: 2%;
                 .chestImg {
                     flex: 1 1 30%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @extend %center;
                     img {
                         width: 60%;
                         height: auto;
