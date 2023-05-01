@@ -49,7 +49,7 @@
         <source>/imgs/chests/legendary.webp</source>
         <cards>1</cards>
         <gold>0</gold>
-        <features>Содержит одну легендарную карту с любой арену</features>
+        <features>Содержит одну легендарную карту с любой арены</features>
     </chest>
     <chest>
         <source>/imgs/chests/lightning.webp</source>
