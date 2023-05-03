@@ -1,137 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="88mm"
-   height="46mm"
-   viewBox="0 0 88 46"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
-   sodipodi:docname="logo.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="1.4324916"
-     inkscape:cx="-67.714186"
-     inkscape:cy="102.26936"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g4106"
-     showguides="true"
-     inkscape:lockguides="true">
-    <sodipodi:guide
-       position="20.178639,34.964087"
-       orientation="1,0"
-       id="guide728"
-       inkscape:locked="true" />
-    <sodipodi:guide
-       position="13.806437,22.219683"
-       orientation="0,-1"
-       id="guide730"
-       inkscape:locked="true" />
-  </sodipodi:namedview>
-  <defs
-     id="defs2">
-    <rect
-       x="147.34563"
-       y="359.1087"
-       width="38.008755"
-       height="29.864021"
-       id="rect4542" />
-    <rect
-       x="135.74556"
-       y="364.53851"
-       width="33.56617"
-       height="17.770327"
-       id="rect4536" />
-    <linearGradient
-       id="linearGradient2969"
-       inkscape:swatch="solid">
-      <stop
-         style="stop-color:#0000ff;stop-opacity:1;"
-         offset="0"
-         id="stop2967" />
-    </linearGradient>
-  </defs>
-  <g
-     inkscape:label="Слой 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.48929;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3166"
-       width="66.132431"
-       height="41.041008"
-       x="0.87086558"
-       y="3.4100082"
-       ry="11.475924"
-       rx="12.059444"
-       inkscape:label="bgc" />
-    <g
-       id="g4106"
-       transform="matrix(1.1735489,0,0,1.1735489,-36.447351,-121.33996)">
-      <rect
-         style="fill:#2a21de;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
-         id="rect188"
-         width="16.584087"
-         height="23.567537"
-         x="76.800285"
-         y="103.747"
-         rx="0"
-         ry="0"
-         inkscape:label="card1" />
-      <rect
-         style="fill:#21de47;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
-         id="rect188-1"
-         width="16.584087"
-         height="23.567537"
-         x="130.26161"
-         y="48.342396"
-         rx="0"
-         ry="0"
-         inkscape:transform-center-x="-13.272305"
-         inkscape:transform-center-y="-6.1154097"
-         transform="rotate(30)"
-         inkscape:label="card2" />
-      <rect
-         style="fill:#de2121;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
-         id="rect188-1-5"
-         width="16.584087"
-         height="23.567537"
-         x="148.85873"
-         y="-26.370033"
-         rx="0"
-         ry="0"
-         inkscape:transform-center-x="-14.55186"
-         inkscape:transform-center-y="1.3400543"
-         transform="rotate(60)"
-         inkscape:label="card3" />
-    </g>
-    <path
-       id="path465"
-       style="fill:#202020;stroke:#000000;stroke-width:0.221"
-       d="m 16.55203,10.65 v 24.94 h 3.722 V 24.169 l 6.606,11.421 h 3.722 l -6.596,-11.421 2.771,-2.985 3.722,-3.754686 -3.722,-3.689314 -2.771,-3.09 h -3.732 z m 3.722,3.722 c 2.167811,1.029836 4.335623,2.059672 6.503435,3.089507 l -6.503435,3.435099 z"
-       sodipodi:nodetypes="ccccccccccccccccc"
-       inkscape:label="path465" />
-    <path
-       id="path672"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.221"
-       d="m 34.700923,10.649996 v 24.939563 h 3.722253 l 6.82284,-4.676717 3.566707,-7.317383 -3.566707,-8.268746 -6.82284,-4.676717 z m 2.200382,4.401798 h 2.468584 l 4.524788,3.10162 2.36523,5.483386 -2.36523,4.852934 -4.524788,3.101103 h -2.468584 z" />
+<svg width="87.545mm" height="45.163mm" version="1.1" viewBox="0 0 87.545 45.163" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-.12622 -.23619)" stroke="#000">
+  <rect x=".87087" y="3.41" width="66.132" height="41.041" rx="12.059" ry="11.476" fill="#fff" stroke-width="1.4893"/>
+  <g transform="matrix(1.1735 0 0 1.1735 -36.447 -121.34)" stroke-width=".3">
+   <rect x="76.8" y="103.75" width="16.584" height="23.568" rx="0" ry="0" fill="#2a21de"/>
+   <rect transform="rotate(30)" x="130.26" y="48.342" width="16.584" height="23.568" rx="0" ry="0" fill="#21de47"/>
+   <rect transform="rotate(60)" x="148.86" y="-26.37" width="16.584" height="23.568" rx="0" ry="0" fill="#de2121"/>
   </g>
+  <path d="m16.552 10.65v24.94h3.722v-11.421l6.606 11.421h3.722l-6.596-11.421 2.771-2.985 3.722-3.7547-3.722-3.6893-2.771-3.09h-3.732zm3.722 3.722c2.1678 1.0298 4.3356 2.0597 6.5034 3.0895l-6.5034 3.4351z" fill="#202020" stroke-width=".221"/>
+  <path d="m34.701 10.65v24.94h3.7223l6.8228-4.6767 3.5667-7.3174-3.5667-8.2687-6.8228-4.6767zm2.2004 4.4018h2.4686l4.5248 3.1016 2.3652 5.4834-2.3652 4.8529-4.5248 3.1011h-2.4686z" stroke-width=".221"/>
+ </g>
 </svg>

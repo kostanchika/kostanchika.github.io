@@ -69,7 +69,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
 }
-header img {
+header svg {
   height: 65px;
   width: auto;
   margin-left: 5%;

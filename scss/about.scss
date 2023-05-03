@@ -67,6 +67,9 @@ main {
                     flex: 1 1 100px;
                     img {
                         height: 300px;
+                        &.revert {
+                            transform: scale(-1, 1);
+                        }
                     }
                 }
             }

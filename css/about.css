@@ -11,12 +11,6 @@
     position: relative;
   }
   header .inside-header label#fburger {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     margin-right: 5%;
     visibility: visible;
     -webkit-user-select: none;
@@ -75,7 +69,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
 }
-header img {
+header svg {
   height: 65px;
   width: auto;
   margin-left: 5%;
@@ -301,6 +295,10 @@ main section .About .line .sticker {
 }
 main section .About .line .sticker img {
   height: 300px;
+}
+main section .About .line .sticker img.revert {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
 }
 main section .About .line-reverse {
   display: none;
