@@ -295,6 +295,7 @@ main section .HeadCard .info .line p:last-child {
   margin: 0;
 }
 main section .cards {
+  padding: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
