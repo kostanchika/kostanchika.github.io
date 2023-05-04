@@ -232,18 +232,6 @@
         <targets>Земля и воздух</targets>
     </card>
     <card>
-        <name>Стенобои</name>
-        <source>/cards/wallbreaker.png</source>
-        <hp>357</hp>
-        <dmg>357</dmg>
-        <dmgps>0</dmgps>
-        <rarity>Эпическая</rarity>
-        <speed>Очень быстрая</speed>
-        <hspeed>1.2</hspeed>
-        <range>Малая</range>
-        <targets>Здания</targets>
-    </card>
-    <card>
         <name>Королевские кабаны</name>
         <source>/cards/royal_hog.png</source>
         <hp>762</hp>
@@ -254,30 +242,6 @@
         <hspeed>1.2</hspeed>
         <range>Малая</range>
         <targets>Здания</targets>
-    </card>
-    <card>
-        <name>Король скелетов</name>
-        <source>/cards/skeletonking.png</source>
-        <hp>3059</hp>
-        <dmg>272</dmg>
-        <dmgps>170</dmgps>
-        <rarity>Чемпион</rarity>
-        <speed>Средняя</speed>
-        <hspeed>1.6</hspeed>
-        <range>Средняя</range>
-        <targets>Земля</targets>
-    </card>
-    <card>
-        <name>Супермагический лучник</name>
-        <source>/cards/supermagicarcher.png</source>
-        <hp>638</hp>
-        <dmg>1</dmg>
-        <dmgps>0</dmgps>
-        <rarity>Легендарная</rarity>
-        <speed>7.0</speed>
-        <hspeed>2.0</hspeed>
-        <range>7.0</range>
-        <targets>Земля и воздух</targets>
     </card>
     <card>
         <name>Королева лучниц</name>
@@ -316,18 +280,6 @@
         <targets>Земля</targets>
     </card>
     <card>
-        <name>Ледяной суперголем</name>
-        <source>/cards/supericegolem.png</source>
-        <hp>3300</hp>
-        <dmg>1100</dmg>
-        <dmgps>40</dmgps>
-        <rarity>Легендарная</rarity>
-        <speed>Малая</speed>
-        <hspeed>2.5</hspeed>
-        <range>Малая</range>
-        <targets>Земля</targets>
-    </card>
-    <card>
         <name>Монах</name>
         <source>/cards/monk.png</source>
         <hp>2660</hp>
@@ -362,18 +314,6 @@
         <hspeed>1.0</hspeed>
         <range>5.5</range>
         <targets>Земля и воздух</targets>
-    </card>
-    <card>
-        <name>Элитные варвары</name>
-        <source>/cards/elite_barbarians.png</source>
-        <hp>1220</hp>
-        <dmg>349</dmg>
-        <dmgps>249</dmgps>
-        <rarity>Обычная</rarity>
-        <speed>Быстрая</speed>
-        <hspeed>1.4</hspeed>
-        <range>Малая</range>
-        <targets>Земля</targets>
     </card>
 </cards>
     
