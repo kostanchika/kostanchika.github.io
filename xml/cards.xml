@@ -28,6 +28,18 @@
         <targets>Земля</targets>
     </card>
     <card>
+        <name>Принцесса</name>
+        <source>/cards/princess.png</source>
+        <hp>237</hp>
+        <dmg>154</dmg>
+        <dmgps>51</dmgps>
+        <rarity>Легендарная</rarity>
+        <speed>Средняя</speed>
+        <hspeed>3.0</hspeed>
+        <range>9.0</range>
+        <targets>Земля и воздух</targets>
+    </card>
+    <card>
         <name>П.Е.К.К.А.</name>
         <source>/cards/pekka.png</source>
         <hp>3431</hp>
@@ -110,18 +122,6 @@
         <hspeed>1.1</hspeed>
         <range>5.5</range>
         <targets>Земля и воздух</targets>
-    </card>
-    <card>
-        <name>Боевой таран</name>
-        <source>/cards/battle_ram.png</source>
-        <hp>829</hp>
-        <dmg>260</dmg>
-        <dmgps>521</dmgps>
-        <rarity>Редкая</rarity>
-        <speed>Средняя</speed>
-        <hspeed>0.4</hspeed>
-        <range>Малая</range>
-        <targets>Здания</targets>
     </card>
     <card>
         <name>Пламенный дракон</name>
